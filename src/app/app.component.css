@@ -1,8 +1,11 @@
 h1 {
-  color: purple;
+  color: #800080;
+  font-weight: 400;
+  font-size: 3.2rem;
+  letter-spacing: 0.5px;
 }
 
 .container {
-  max-width: 86rem;
+  max-width: 75rem;
   margin: 0 auto;
 }
