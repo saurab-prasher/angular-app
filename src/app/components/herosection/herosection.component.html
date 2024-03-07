@@ -1,0 +1,10 @@
+<div class="container">
+  <div class="hero-section">
+    <h2>Grocery List</h2>
+    <ul>
+      @for(item of groceryList; track item.id){
+      <li>{{ item.quantity }} x {{ item.name }}</li>
+      }
+    </ul>
+  </div>
+</div>

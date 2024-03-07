@@ -1,0 +1,8 @@
+h1 {
+  color: purple;
+}
+
+.container {
+  max-width: 86rem;
+  margin: 0 auto;
+}

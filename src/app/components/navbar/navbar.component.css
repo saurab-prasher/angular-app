@@ -1,0 +1,41 @@
+nav {
+  padding: 4rem;
+}
+ul {
+  list-style-type: none; /* Remove default list bullets */
+  margin: 0; /* Remove default margins */
+  padding: 0; /* Remove default paddings */
+  text-align: center; /* Center align items */
+}
+
+/* Styling each list item */
+ul li {
+  display: inline-block; /* Display list items in a row */
+  margin-right: 1.25rem; /* Add some space between each item */
+}
+
+/* Styling each link */
+ul li a {
+  text-decoration: none; /* Remove default text underline */
+  font-size: 1rem; /* Set font size */
+  color: #333; /* Set text color */
+  padding: 0.625rem 0.9375rem; /* Add some padding for a larger click area */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+/* Styling the link on hover */
+ul li a:hover {
+  color: #007bff; /* Change text color on hover */
+}
+
+/* Add a different style for the last item (Log In) */
+ul li:last-child a {
+  background-color: #007bff; /* Set background color */
+  color: white; /* Change text color for better contrast */
+  border-radius: 0.3125rem; /* Optional: add rounded corners */
+}
+
+/* Hover state for the last item */
+ul li:last-child a:hover {
+  background-color: #0056b3; /* Darken background on hover */
+}
